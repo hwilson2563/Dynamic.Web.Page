@@ -19,6 +19,7 @@ li {
 	padding: 10px;
 	font-size: 15px;
 	color:#69696a;
+	font-weight: 400;
 }
 body{
 	background-color: #f9fafc;
@@ -63,14 +64,14 @@ button {
 	padding: 10px;
 }
 @media only screen and (min-width:768px) { 
-#circleone{
+#circleone {
 	background-color: rgba(207, 130, 213, 0.6);
 	height: 100px;
 	width: 100px;
 	border-radius: 100px;
 	position: absolute;
 	right: 30px;
-	top: 100px;
+	top: 150px;
 	z-index: 5; 
 }
 #circletwo {
@@ -79,8 +80,8 @@ button {
 	width: 150px;
 	border-radius: 100px;
 	position: absolute;
-	right: 30px;
-	top: 175px;
+	right: 20px;
+	top: 230px;
 	z-index: 10;
 }
 #circlethree {
@@ -90,7 +91,7 @@ button {
 	border-radius: 100px;
 	position: absolute;
 	right: 100px;
-	top: 100px;
+	top: 150px;
 	z-index: 1;
 	}
 header {
@@ -101,13 +102,17 @@ ul{
 	display: flex;
 	margin-top: 0px;
 }
+li {
+	margin-right: 20px;
+}
+.selected {
+	padding-left: 40px;
+	padding-right: 40px;
+}
 .about {
 	width: 50%;
 	display: inline-block;
 	clear: right;
-}
-.about p {
-	font-size: 15px;
 }
 #scroll {
 	position: fixed;
